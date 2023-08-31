@@ -1,0 +1,66 @@
+.hero {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    min-height: 30vh;
+    background: #000;
+    background-size: cover;
+    position: relative;
+    padding: 140px 0 60px 0;
+}
+
+.hero h2 {
+    margin: 0 0 10px 0;
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+    font-family: var(--font-secondary);
+}
+
+.hero h2 span {
+    position: relative;
+    z-index: 1;
+    padding: 0 5px;
+    display: inline-block;
+}
+
+.hero h2 span:before {
+    content: "";
+    position: absolute;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--color-primary);
+    z-index: -1;
+}
+
+.hero p {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.hero .btn-get-started {
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: #fff;
+    background: var(--color-primary);
+}
+
+.hero .btn-get-started:hover {
+    background: #2cbc85;
+}
+
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 32px;
+    }
+}
