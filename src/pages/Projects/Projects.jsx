@@ -14,6 +14,11 @@ const Projects = () => {
         <div className="container-fluid">
           <div className="row gy-4 justify-content-center">
             <ProjectBox
+              img="/projects/9.png"
+              desc="MERN Stack"
+              src="https://mern-jwt-auth-web.vercel.app/"
+            />
+            <ProjectBox
               img="/projects/1.png"
               desc="Html & Css"
               src="https://ditinagrawal.github.io/pizzaday/"
