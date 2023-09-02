@@ -38,26 +38,10 @@ const Projects = () => {
               desc="Html, Css & Js"
               src="https://ditinagrawal.github.io/coffeewebsite/"
             />
-
-            <ProjectBox
-              img="/projects/5.png"
-              desc="Vanilla JavaScript"
-              src="https://ditinagrawal.github.io/weatherapp/"
-            />
-            <ProjectBox
-              img="/projects/6.png"
-              desc="Vanilla JavaScript"
-              src="https://ditinagrawal.github.io/dictionaryapp/"
-            />
             <ProjectBox
               img="/projects/7.png"
               desc="Html & Tailwind Css"
               src="https://ditinagrawal.github.io/tailwindwebsite/"
-            />
-            <ProjectBox
-              img="/projects/8.png"
-              desc="Vanilla JavaScript"
-              src="https://ditinagrawal.github.io/recipeapp/"
             />
           </div>
         </div>
