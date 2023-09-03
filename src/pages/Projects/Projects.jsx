@@ -14,7 +14,7 @@ const Projects = () => {
         <div className="container-fluid">
           <div className="row gy-4 justify-content-center">
             <ProjectBox
-              img="/projects/9.png"
+              img="/projects/2.png"
               desc="MERN Stack"
               src="https://mern-jwt-auth-web.vercel.app/"
             />
@@ -24,25 +24,30 @@ const Projects = () => {
               src="https://ditinagrawal.github.io/pizzaday/"
             />
             <ProjectBox
-              img="/projects/2.png"
-              desc="Html, Css & Bootstrap"
-              src="https://ditinagrawal.github.io/portfoliowebsite01-demo.github.io/"
-            />
-            <ProjectBox
               img="/projects/3.png"
-              desc="Bootstrap Only"
-              src="https://ditinagrawal.github.io/portfoliowebsite02-demo.github.io/"
+              desc="Html, css & Js"
+              src="https://ditin-portfolio.netlify.app/"
             />
             <ProjectBox
-              img="/projects/4.png"
+              img="/projects/6.png"
+              desc="Html & Bootstrap"
+              src="https://ditin-portfolio3.netlify.app/"
+            />
+            <ProjectBox
+              img="/projects/5.png"
               desc="Html, Css & Js"
-              src="https://ditinagrawal.github.io/coffeewebsite/"
+              src="https://ditin-portfolio2.netlify.app/"
             />
             <ProjectBox
               img="/projects/7.png"
-              desc="Html & Tailwind Css"
-              src="https://ditinagrawal.github.io/tailwindwebsite/"
+              desc="Html, Css & Js"
+              src="https://ditin-coffeeweb.netlify.app/"
             />
+            {/* <ProjectBox
+              img="/projects/4.png"
+              desc="Html & Tailwind Css"
+              src="https://tailwindweb.netlify.app/"
+            /> */}
           </div>
         </div>
       </section>
