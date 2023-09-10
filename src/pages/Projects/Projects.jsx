@@ -18,11 +18,11 @@ const Projects = () => {
               desc="React and Firebase"
               src="https://ditin-firebase-auth.netlify.app/"
             />
-            <ProjectBox
+            {/* <ProjectBox
               img="/projects/2.png"
               desc="MERN Stack"
               src="https://mern-jwt-auth-web.vercel.app/"
-            />
+            /> */}
             <ProjectBox
               img="/projects/1.png"
               desc="Html & Css"
