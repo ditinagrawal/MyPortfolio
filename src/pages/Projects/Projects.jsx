@@ -14,6 +14,11 @@ const Projects = () => {
         <div className="container-fluid">
           <div className="row gy-4 justify-content-center">
             <ProjectBox
+              img="/projects/8.png"
+              desc="React and Firebase"
+              src="https://ditin-firebase-auth.netlify.app/"
+            />
+            <ProjectBox
               img="/projects/2.png"
               desc="MERN Stack"
               src="https://mern-jwt-auth-web.vercel.app/"
